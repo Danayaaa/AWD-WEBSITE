@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <link rel="stylesheet" href="./Assets/Style/style.css">
+    <link href="https://fonts.cdnfonts.com/css/stora" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body style="background-image: url('./Assets/pics/cover.png'); background-repeat: no-repeat; background-size: cover;">
+
+    <div class="wrapper">
+        <div class="header">
+            <div>
+                <i id="hamburger-icon" class="fas fa-bars fa-3x"></i>
+                <div class="title">YESSTYLE</div>
+            </div>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </div>
+
+    <nav id="sub-menu" class="sub-menu open">
+        <input type="search" placeholder="Search...">
+        <ul class="list-unstyled">
+            <li>
+                <i class="fas fa-home"></i><a href="../../../index.html">Home</a>
+            </li>
+            <li>
+                <i class="fas fa-shopping-cart"></i><a href="../../../PRODUCTS PAGE/bags.html">Products</a>
+            </li>
+            <li>
+                <i class="fas fa-info-circle"></i><a href="../../../About Us/index.html">About Us</a>
+            </li>
+            <li>
+                <i class="fas fa-truck"></i><a href="../../../About Us/index.html">Shipping</a>
+            </li>
+        </ul>
+        <a href="../../../LoginPage/login.html" class="button">Sign In</a>
+    </nav>
+
+    <div class="overlay"></div>
+
+    <div class="container1">
+    
+        <form class="signup">
+    
+            <div class = "header1">
+                <h2>Create Account</h2>
+            </div>
+    
+            <div class="input">
+                <input type="text" placeholder="first name"/>
+            </div>
+                  
+            <div class="input">
+                <input type="text" placeholder="last name"/>
+            </div>
+    
+          <div class="input">
+            <input type="email" placeholder="email"/>
+          </div>
+    
+        <div class="input">
+            <input type="tel" placeholder="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format: 123-456-7890">
+        </div>
+    
+          <div class="input">
+            <input type="password" placeholder="password"/>
+          </div>
+    
+    
+          <div class="check">
+            <input type="checkbox" name="Remeber me" placeholder="Remember me" id="remember">
+            <label for="remember">by registering, you agree to the terms of use and <br>privacy policy of starface world</label><br>
+           </div>
+    
+          <div class="input">
+            <button>Create Account</button>
+          </div>
+    
+          <div class="input">
+            <a href="../LoginPage/login.html" class="log_in">already registered?<br> Sign in</a>
+          </div>
+
+        </form>
+        
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class = "row">
+                <div class = "footer-col">
+                    <h4>Location</h4>
+                    <ul>
+                        <li>SM Mall of Asia</li>
+                        <li>SM North Edsa</li>
+                        <li>SM Megamall</li>
+                        <li>SM Dasmarinas</li>
+                    </ul>
+                </div>
+
+                <div class = "footer-col">
+                    <h4>My Account</h4>
+                    <ul>
+                        <li><a href="../../../LoginPage/login.html">Login</a></li>
+                        <li><a href="../../../SignUp Page/index.html">Create Account</a></li>
+                    </ul>
+                </div>
+
+                <div class = "footer-col">
+                    <h4>Info</h4>
+                    <ul>
+                        <li><a href="../../../About Us/index.html">About us</a></li>
+                        <li><a href="../../../About Us/index.html">Contact us</a></li>
+                        <li><a href="../../../About Us/index.html">Shipping and Returns</a></li>
+                    </ul>
+                </div>
+
+                <div class = "footer-col">
+                    <h4>Subscribe</h4>
+                    <form action ="">
+                        <input type="text" placeholder="Enter your email" class="inputEmail">
+                        <input type = "submit" value="Submit" class="inputSubmit">
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-header">
+                <h1 class="footer">YES STYLE</h1>
+                <div class="Icons">
+                    <img src="./Assets/pics/Social Icons.png" alt="Social Icon 4">
+                    <img src="./Assets/pics/Social Icons (1).png" alt="Social Icon 1">
+                    <img src="./Assets/pics/Social Icons (2).png" alt="Social Icon 2">
+                    <img src="./Assets/pics/Social Icons (3).png" alt="Social Icon 3">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src = "./Assets/JS/script.js"></script>
+
+</body>
+</html>
